@@ -1,28 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Message_cla from './components/Message_cla';
+
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
+
     <div>
-      <h1>Good Morning</h1>
-      <h1>Good Afternoon</h1>
-      <h1>Good Evening</h1>
+      <h1>App component!</h1>
+      <Message_cla/>
+
     </div>
   );
 }
