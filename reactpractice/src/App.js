@@ -1,5 +1,5 @@
 import './App.css';
-import Message_cla from './components/Message_cla';
+import CompA from './components/CompA';
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
     <div>
       <h1>App component!</h1>
-      <Message_cla/>
+      <CompA/>
 
     </div>
   );

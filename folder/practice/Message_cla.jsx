@@ -10,10 +10,10 @@ class Message_cla extends React.Component{
     render() {
         return <div>
             <h2>Message component</h2>
-            <h3>employee id :{this.eid}</h3>
-            <h3>employee name :{this.ename}</h3>
-            <h3>employee location :{this.loc}</h3>
-            <h3>employee details:{JSON.stringify(this.details)}</h3>
+            <h3>employee id : { this.eid}</h3>
+            <h3>employee name : { this.ename}</h3>
+            <h3>employee location : { this.loc}</h3>
+            <h3>employee details: { JSON.stringify(this.details)}</h3>
         </div>
     }
 }
