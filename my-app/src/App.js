@@ -1,9 +1,9 @@
-import Comment from "./Lifecycle/Comment";
+import Users from "./Components/Users";
 
 function App() {
   return <div>
     <h1>App Component</h1>
-    <Comment/>
+    <Users/>
   </div>
 }
 
