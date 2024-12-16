@@ -1,5 +1,5 @@
 import './App.css';
-import CompA from './components/CompA';
+import User from './components/User';
 
 
 function App() {
@@ -7,8 +7,8 @@ function App() {
 
     <div>
       <h1>App component!</h1>
-      <CompA/>
-
+      <hr />
+      <User/>
     </div>
   );
 }
