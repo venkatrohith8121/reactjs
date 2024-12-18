@@ -1,5 +1,5 @@
 import './App.css';
-import User from './components/User';
+import Message from './components/Message';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>App component!</h1>
       <hr />
-      <User/>
+      <Message/>
     </div>
   );
 }
