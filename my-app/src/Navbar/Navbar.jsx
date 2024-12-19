@@ -5,6 +5,7 @@ const Navbar = () => {
             <Link to="/index" className="navbar-brand">Logo</Link>
             <div className='ml-auto'>
                 <ul className='navbar-nav'>
+                <li><Link to="/Login" className="nav-link">login</Link></li>
                 <li><Link to="/index" className="nav-link">Home</Link></li>
                 <li><Link to="/about" className="nav-link">About</Link></li>
                 <li><Link to="/services" className="nav-link">Services</Link></li>

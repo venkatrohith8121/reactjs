@@ -1,24 +1,26 @@
-import React from 'react'
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
-import Navbar from './Navbar/Navbar'
-import Home from './components/Home'
-import About from './components/About'
-import Services from './components/Services'
-import Contact from './components/Contact'
-const App = () => {
-  return (
-    <div>
-        <Router>
-                <Navbar/>
-                <Switch>
-                <Route path="/index" component={Home}/>
-                <Route path="/about" component={About}/>
-                <Route path="/services" component={Services}/>
-                <Route path="/contact" component={Contact}/>
-                </Switch>
-        </Router>
-    </div>
-  )
-}
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './Navbar/Navbar';
+import Home from './Components/Home';
+import About from './Components/About';
+import Services from './Components/Services';
+import Contact from './Components/Contact';
+import Login from './From_validation/Login';
 
-export default App
+const App = () => (
+  <div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/index" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+
+      </Routes>
+    </Router>
+  </div>
+);
+
+export default App;
