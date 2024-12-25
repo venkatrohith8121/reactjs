@@ -1,10 +1,14 @@
 import React from 'react'
 import Message from './Messages/Message'
+import { Provider } from 'react-redux'
+import { store } from './Redux/Store'
 const App = () => {
   return (
     <div>
-        <h2>App Component</h2>
-        <Message/>
+      <Provider store={store}>
+      <h2>App Component</h2>
+      <Message />
+      </Provider>
     </div>
   )
 }
