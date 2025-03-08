@@ -1,12 +1,13 @@
 import './App.css';
-import Message from './Message';
-
+import Listrendering from './Components/Listrendering';
 function App() {
+
+  
   return (
     <div>
       <h1>App component</h1>
       <hr />
-      <Message/>
+      <Listrendering/>
     </div>
   );
 }
